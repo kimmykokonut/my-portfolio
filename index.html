@@ -19,124 +19,172 @@
   </header>
 
   <section id="home">
-    <h2>Kim Robinson</h2>
-    <p>Software Developer</p>
-    <p>Baker</p>
-    <p>Forager</p>
-
+    <div class="image-links">
+      <a href='#about' id="amanita-about" class="mushroom-anchor">
+        <img src="/static/images/amanita.png" alt="amanita mushroom" height="100px" width="auto" />
+        <p>about</p>
+      </a>
+      <a href='#projects' id="bolete-projects" class="mushroom-anchor">
+        <img src="/static/images/bolete.png" alt="bolete mushroom" height="100px" width="auto" />
+        <p>projects</p>
+      </a>
+      <a href='#skills' id="coprinus-skills" class="mushroom-anchor">
+        <img src="/static/images/coprinus.png" alt="coprinus mushroom" height="100px" width="auto" />
+        <p>skills</p>
+      </a>
+      <a href='#contact' id="trumpet-contact" class="mushroom-anchor">
+        <img src="/static/images/trumpet.png" alt="black trumpet mushroom" height="100px" width="auto" />
+        <p>contact</p>
+      </a>
+    </div>
+    <div class="card-home">
+      <h2>Kim Robinson</h2>
+      <br>
+      <br>
+      <h4>Software Developer</h4>
+      <h4>Baker</h4>
+      <h4>Forager</h4>
+    </div>
   </section>
 
   <section id="about">
-    <h2>About</h2>
-    <br>
-    <p>I am a seeker and a life-long learner, with a desire to connect and understand what is around me.</p>
-    <br>
-    <p>Originally from the East Coast with strong opinions on bagels and pizza, I have put roots in the Pacific
-      Northwest.
-      My
-      time here has filled my heart with the beauty of nature and my brain with the complexity of language learning.</p>
-    <br>
-    <p>I am a passionate and organized team player with track record of thriving both independently and collaboratively.
-      I
-      am
-      currently advancing my skills in web and mobile development through a comprehensive full-time full-stack software
-      engineering bootcamp at Epicodus. With a background in natural resources management and culinary arts, I bring
-      a unique perspective to problem-solving and attention to detail. Excited to leverage my adaptable range of
-      abilities
-      and
-      newly acquired coding skills in a software development role, where I can contribute to innovative solutions.</p>
-    <br>
-    <p>When I am not at the computer, I am probably in the forest: foraging for mushrooms, hiking to alpine lakes, or
-      nordic
-      skiing.</p>
+    <div id="about-card">
+      <h2>About Kim</h2>
+      <br>
+      <p>I am a continuous learner, with a desire to connect to and understand that which is around me.</p>
+      <br>
+      <p>Newly graduated from the final Epicodus cohort in Portland, I have a certificate in web and mobile development.
+        It was a full-stack program with a focus on Javascript, React, C# and ASP.NET. I continue to learn and explore
+        technology, having just finished my capstone project that included Python and a PostgreSQL database.</p>
+      <p>Drawing on my background in Natural Resources Management and Culinary Arts, I offer a unique approach to
+        problem-solving and a keen eye to detail.</p>
+      <br>
+      <p>When I am not at the computer, I am likely in the forest: foraging for mushrooms, hiking to alpine lakes, or
+        nordic skiing.</p>
+    </div>
   </section>
 
   <section id="projects">
-    <h2>Projects</h2>
-    <hr>
-    <div class="scrolling-wrapper">
-      <div class="card">
-        <a href="https://sound-check.netlify.app/">
-          <h2>Soundcheck</h2>
-          <img class="project-img" src="./static/images/soundcheck.png" alt="Home page for Soundcheck concert project">
-          <p>Find a concert, make a friend</p>
-          <p>React | JavaScript | Html | CSS | Material UI</p>
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://github.com/kimmykokonut/cooking-compendium">
-          <h2>Cooking Compendium</h2>
-          <img class="project-img" src="./static/images/recipe.png" alt="Home page for recipe box project">
-          <p>Log in, create, edit, delete, comment and rate recipes</p>
-          <p>C# | MySQL | Html | CSS | Entity Framework Core with Identity</p>
-        </a>
-      </div>
-      <div class="card">
-        <a href="https://garden-client.onrender.com/">
-          <h2>Garden Guardian</h2>
-          <img class="project-img" src="./static/images/garden.png" alt="Home page for garden tracker project">
-          <p>Log in, manage garden data, WIP</p>
-          <p>TypeScript | JavaScript | React | Tailwind | Html | CSS | PostgreSQL | C# | ASP.NET</p>
-        </a>
+    <div class="center-card">
+      <h2>Projects</h2>
+      <hr>
+      <div class="scrolling-wrapper">
+        <div class="card">
+          <a href="https://myco.onrender.com/">
+            <h2>Myco Matrix</h2>
+            <br>
+            <p>Automated field trip registration and lottery</p>
+            <p>React | Typescript | Python | Django | Material UI | PostgreSQL</p>
+            <br>
+            <img class="project-img" src="./static/images/mycoList.png" alt="Myco Matrix project trip list page">
+          </a>
+          <br>
+          <a href="https://myco.onrender.com/" class="button-link">Website</a>
+          <a href="https://github.com/kimmykokonut/Capstone" class="button-link">Code</a>
+        </div>
+        <div class="card">
+          <a href="https://myco.onrender.com/">
+            <h2>Beyond Tipping</h2>
+            <br />
+            <p>Find tip-free Portland Restaurants</p>
+            <p>React | Typescript | Python | Flask | Tailwind CSS | SQLite</p>
+            <br>
+            <img class="project-img" src="./static/images/tipping.png" alt="Beyond tipping homepage screenshot">
+          </a>
+          <br>
+          <a href="https://github.com/kimmykokonut/beyondtipping" class="button-link">Code</a>
+          <br />
+          <p style="color: black">Group Project: I built the flask backend, API endpoints, front end API calls to render
+            data to the Restaurant List page</p>
+        </div>
+        <div class="card">
+          <a href="https://garden-client.onrender.com/">
+            <h2>Garden Guardian</h2>
+            <br />
+            <p>A user can create and organize garden data via grids (to come: track yields over time)</p>
+            <p>TypeScript | React | Tailwind | Html | CSS | PostgreSQL | C# | ASP.NET</p>
+            <br />
+            <img class="project-img" src="./static/images/garden.png" alt="Home page for garden tracker project">
+          </a>
+          <br>
+          <a href="https://garden-client.onrender.com/" class="button-link">Website</a>
+          <a href="https://github.com/kimmykokonut/Garden-guardian" class="button-link">Code</a>
+        </div>
+        <div class="card">
+          <a href="https://dumpling-atlas.netlify.app/dumplings">
+            <h2>The Dump Truck</h2>
+            <br />
+            <p>A user can see, add, edit and delete this work-in-progress dumpling database.</p>
+            <p>TypeScript | React | Python | Django | CSS | PostgreSQL</p>
+            <br />
+            <img class="project-img" src="./static/images/dumplingapi.png" alt="Json response for dumpling api call">
+          </a>
+          <br>
+          <a href="https://dumpling-atlas.netlify.app/dumplings" class="button-link">Website</a>
+          <a href="https://github.com/kimmykokonut/dumpling-client" class="button-link">Front End Code</a>
+          <a href="https://github.com/kimmykokonut/dumpling-api" class="button-link">WebAPI Code</a>
+        </div>
+        <div class="card">
+          <a href="https://sound-check.netlify.app/">
+            <h2>Soundcheck</h2>
+            <br>
+            <p>Find a concert, make a friend</p>
+            <p>React | JavaScript | Html | CSS | Material UI | JamBase API</p>
+            <br>
+            <img class="project-img" src="./static/images/soundcheck.png"
+              alt="Home page for Soundcheck concert project">
+          </a>
+          <br>
+          <a href="https://sound-check.netlify.app/" class="button-link">Website</a>
+          <a href="https://github.com/kimmykokonut/sound-check" class="button-link">Code</a>
+          <br />
+          <p style="color: black">Group Project: I wrote the API calls, designed the Who's Coming page and built the
+            location search filter</p>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="skills">
-    <h2>Skills</h2>
-    <hr />
-    <h5>Languages</h5>
-    <ul>
-      <li>JavaScript</li>
-      <li>TypeScript</li>
-      <li>C#</li>
-      <li>Python</li>
-    </ul>
-
-    <h5>Frameworks</h5>
-    <ul>
-      <li>Node.js</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>ASP.NET</li>
-      <li>Django</li>
-    </ul>
-
-    <h5>Libraries</h5>
-    <ul>
-      <li>Bootstrap</li>
-      <li>Material UI</li>
-      <li>Webpack</li>
-      <li>Firebase</li>
-    </ul>
-
-    <h5>Databases</h5>
-    <ul>
-      <li>MySQL</li>
-      <li>Firestore (NoSql)</li>
-      <li>PostgreSQL</li>
-    </ul>
-
-    <h5>Other Web Technologies</h5>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-
-    <h5>Testing</h5>
-    <ul>
-      <li>MSTest</li>
-      <li>Jest</li>
-    </ul>
-
-    <h5>Version Control</h5>
-    <ul><li>Git</li></ul>
-
-    <h5>Other Languages</h5>
-    <ul>
-      <li>Spanish (fluent)</li>
-      <li>Italian (proficient)</li>
-    </ul>
+    <div class="center-card">
+      <div id="skills-section">
+        <h4>Languages</h4>
+        <span class="skill">JavaScript</span>
+        <span class="skill">TypeScript</span>
+        <span class="skill">C#</span>
+        <span class="skill">Python</span>
+        <h4>Frameworks</h4>
+        <span class="skill">Node.js</span>
+        <span class="skill">React</span>
+        <span class="skill">Redux</span>
+        <span class="skill">ASP.NET</span>
+        <span class="skill">Django</span>
+        <span class="skill">Flask</span>
+        <h4>Libraries</h4>
+        <span class="skill">Bootstrap</span>
+        <span class="skill">Material UI</span>
+        <span class="skill">Webpack</span>
+        <span class="skill">Firebase</span>
+        <h4>Databases</h4>
+        <span class="skill">MySQL</span>
+        <span class="skill">Firestore (NoSql)</span>
+        <span class="skill">PostgreSQL</span>
+        <span class="skill">SQLite</span>
+        <h4>Other Web Technologies</h4>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <h4>Testing</h4>
+        <span class="skill">MSTest</span>
+        <span class="skill">Jest</span>
+        <span class="skill">Unittest</span>
+        <h4>Version Control</h4>
+        <span class="skill">Git</span>
+        <h4>Other Languages</h4>
+        <span class="skill">Spanish</span>
+        <span class="skill">Italian</span>
+      </div>
+    </div>
+    </div>
   </section>
 
   <section id="contact">
