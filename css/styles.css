@@ -14,7 +14,6 @@ html {
 body {
   padding-top: 50px;
   color: whitesmoke;
-  scroll-snap-type: y mandatory;
 }
 
 #header {
@@ -53,6 +52,12 @@ section {
   padding: 60px 20px 5px 20px;
 }
 
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 #home,
 #about,
 #projects,
@@ -89,6 +94,7 @@ section {
 
 #home {
   display: flex;
+  position: relative;
 }
 
 .project-img {
@@ -122,14 +128,14 @@ section {
 #amanita-about {
   position: absolute;
   top: 65%;
-  left: 40%;
+  left: 37%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
 
 #bolete-projects {
   position: absolute;
-  top: 80%;
+  top: 75%;
   left: 25%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -137,15 +143,15 @@ section {
 
 #coprinus-skills {
   position: absolute;
-  top: 90%;
-  left: 40%;
+  top: 80%;
+  left: 45%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
 
 #trumpet-contact {
   position: absolute;
-  top: 72%;
+  top: 70%;
   left: 10%;
   transform: translate(-50%, -50%);
   z-index: 1;
