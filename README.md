@@ -1,24 +1,20 @@
 # Kim Robinson: Portfolio
-WIP
 
-Goal: to create portfolio clean and simple with only Html and CSS to make more accessible to screen readers.
+[See it live](https://kimmykokonut.github.io/my-portfolio/)
 
-Mention responsive web design course?
+![Home Page](./static/images/screenshot.png)
 
-### ToDo:
-* Visual modes: light, dark, sepia
+### About
+
+- My Goal: to create a portfolio with only Html and CSS to make it more accessible to screen readers.
+- I am taking a Responsive Web Design Course via FreeCodeCamp and wanted to see after my courses using React and design libraries like Tailwind and Material UI, I wanted to take a step back and build my portfolio without all the easy helpers. (though I miss them already!)
+- Project is 1 HTML file and 1 CSS file, using aria-labels and other tags to increase accessibility.
+
+* Warning: does Not look good on mobile view. Current design is for iPad or laptop/desktop
+
+### Stretch Goals:
+* Visual modes: dark mode
 * Animation? Background image tree with paths to sections along roots...
-* Color theme--nature-green, brown, blue
-* Host: github pages
-* Css stying to be responsive
-
-### bugs:
-- form redirect goes to google form.
-need an event listener for the submission of the form, then have a small script.js file that does the same thing for the redirection.
-- want header to turn into hamburger at phone/tablet size
-- icons accessible?
-
-### Done
-* One page website that snaps/scrolls to chosen sections.
-* Carousel for projects lists
-* Form to contact me to keep my email off site
+* Css stying to be more responsive for mobile view.
+* Make header to turn into hamburger at phone/tablet size
+* Snap scroll not working?

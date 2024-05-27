@@ -129,7 +129,7 @@ section {
 
 #bolete-projects {
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 25%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -145,7 +145,7 @@ section {
 
 #trumpet-contact {
   position: absolute;
-  top: 75%;
+  top: 72%;
   left: 10%;
   transform: translate(-50%, -50%);
   z-index: 1;
