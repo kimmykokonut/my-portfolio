@@ -14,6 +14,7 @@ html {
 body {
   padding-top: 50px;
   color: whitesmoke;
+  scroll-snap-type: y mandatory;
 }
 
 #header {
@@ -44,7 +45,7 @@ body {
 }
 
 #header a:active {
-  background-color: green;
+  background-color: #362d65;
   color: white;
 }
 
@@ -58,6 +59,7 @@ section {
 #skills,
 #contact {
   height: 100vh;
+  scroll-snap-align: start;
 }
 
 .scrolling-wrapper {
@@ -90,7 +92,7 @@ section {
 }
 
 .project-img {
-  max-width: 70%;
+  max-width: 65%;
   height: auto;
   border: 2px solid black;
 }
@@ -161,12 +163,13 @@ section {
   border-radius: 5px;
   font-size: large;
 }
+
 .center-card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 footer {
@@ -180,9 +183,11 @@ footer {
   width: 100%;
   z-index: 1000;
 }
+
 footer a {
   text-decoration: none;
 }
+
 .button-link {
   align-items: center;
   appearance: none;
@@ -227,13 +232,7 @@ footer a {
   box-shadow: #0f693c 0 3px 7px inset;
   transform: translateY(2px);
 }
-#skills-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 #skills-section {
   padding: 2%;
   border: 1px solid black;
@@ -242,6 +241,7 @@ footer a {
   color: black;
   font-size: large;
 }
+
 .skill {
   display: inline-block;
   margin: 5px;
@@ -249,4 +249,22 @@ footer a {
   background-color: #829c84;
   color: #333;
   border-radius: 20px;
+}
+
+#contact-form {
+  padding: 2%;
+  border: 1px dashed black;
+  background-color: #f2f3f4b0;
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  min-height: auto;
+}
+
+#contact-form a {
+  text-decoration: none;
+}
+
+#contact-form a:active {
+  color: green;
 }
